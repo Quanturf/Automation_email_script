@@ -5,7 +5,7 @@
   formData.append("Email", "{{email}}");
   formData.append("Signup Date", new Date().toLocaleString());
   
-  fetch("https://formspree.io/f/mqaprooe", {
+  fetch("Link from Formspree", {
     method: "POST",
     body: formData,
     headers: {
